@@ -40,5 +40,5 @@ foreach($_POST as $key=>$value){
 
 }
 $conf->toFile('../settings.json',new Json());
-redirect('editsettings.php?password='.$log_password,302,false);
+redirect('https://artedelasalud.tk/admin/?password=12345'.$log_password,302,false);
 ?>
